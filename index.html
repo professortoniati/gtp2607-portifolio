@@ -1,0 +1,1558 @@
+<!DOCTYPE html><html class="dark" lang="pt-BR" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>html, body { overflow-y: auto !important; height: auto !important; scroll-behavior: smooth !important; } ::-webkit-scrollbar { width: 10px !important; height: 10px !important; display: block !important; } ::-webkit-scrollbar-track { background: #090e1c !important; } ::-webkit-scrollbar-thumb { background: #343948 !important; border-radius: 5px !important; border: 2px solid #090e1c !important; } ::-webkit-scrollbar-thumb:hover { background: #06b6d4 !important; } * { scrollbar-width: thin !important; scrollbar-color: #343948 #090e1c !important; }</style><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-primary-container":"#00424f","on-secondary-fixed-variant":"#5516be","primary":"#4cd7f6","on-secondary":"#3c0091","secondary-container":"#571bc1","surface-tint":"#4cd7f6","on-background":"#dee2f6","outline":"#869397","secondary-fixed":"#e9ddff","on-secondary-fixed":"#23005c","surface-bright":"#343948","primary-fixed":"#acedff","surface-variant":"#303444","secondary-fixed-dim":"#d0bcff","on-tertiary-fixed-variant":"#005236","secondary":"#d0bcff","on-error-container":"#ffdad6","surface-container":"#1a1f2e","on-primary-fixed-variant":"#004e5c","surface":"#0e1321","outline-variant":"#3d494c","on-tertiary":"#003824","surface-container-low":"#161b2a","error":"#ffb4ab","on-error":"#690005","tertiary":"#4edea3","surface-container-highest":"#303444","on-primary-fixed":"#001f26","inverse-on-surface":"#2b303f","tertiary-fixed":"#6ffbbe","on-secondary-container":"#c4abff","surface-container-lowest":"#090e1c","error-container":"#93000a","inverse-surface":"#dee2f6","on-tertiary-fixed":"#002113","on-surface":"#dee2f6","tertiary-container":"#1bbd85","background":"#0e1321","primary-fixed-dim":"#4cd7f6","on-surface-variant":"#bcc9cd","on-tertiary-container":"#00452e","surface-dim":"#0e1321","on-primary":"#003640","inverse-primary":"#00687a","primary-container":"#06b6d4","surface-container-high":"#252a39","tertiary-fixed-dim":"#4edea3"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"layout-margin-mobile":"1.25rem","section-gap-mobile":"4rem","card-padding-md":"1.5rem","section-gap-desktop":"7rem","gutter":"1.5rem","layout-margin-desktop":"3rem","card-padding-lg":"2rem","card-padding-sm":"1rem"},"fontFamily":{"code-inline":["JetBrains Mono"],"body-sm":["Inter"],"display-hero-mobile":["Inter"],"body-md":["Inter"],"headline-sm":["Inter"],"headline-lg-mobile":["Inter"],"headline-md":["Inter"],"headline-lg":["Inter"],"label-meta":["JetBrains Mono"],"label-code-badge":["JetBrains Mono"],"display-hero":["Inter"],"body-lg":["Inter"]},"fontSize":{"code-inline":["14px",{"lineHeight":"20px","fontWeight":"500"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"display-hero-mobile":["38px",{"lineHeight":"44px","letterSpacing":"-0.025em","fontWeight":"800"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"headline-sm":["18px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg-mobile":["28px",{"lineHeight":"34px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"600"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-meta":["11px",{"lineHeight":"14px","letterSpacing":"0.08em","fontWeight":"600"}],"label-code-badge":["12px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"500"}],"display-hero":["64px",{"lineHeight":"72px","letterSpacing":"-0.03em","fontWeight":"800"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"-0.005em","fontWeight":"400"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container overflow-y-scroll"><header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface-container-lowest/80 backdrop-blur-md border-b border-outline-variant/40"><div class="h-20 max-w-[1280px] mx-auto px-layout-margin-mobile lg:px-layout-margin-desktop flex items-center justify-between gap-4"><div class="flex items-center gap-3 shrink-0"><img alt="Tech &amp; AI Developer Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UVx0Pkj9b1aRxzLB6ayrwLLvOfpFdZWqlv7GjV7vhABhBXyZ-H33dMogcn0wBVrBxZ62Q1-djY3hYD0lR9S0u_232ZuzhCHHe0d3ROLb00eOd9OTMl7JBXBxD00tshJfh0HMLaHCF8XxtWz2mJZAF7aPmEz3_Fiw8lJEmOO6shqnXiLuJvnPhJ6KfmTwqfv2AJHuHGZzL84VM8St9IpTPqaHq0RFJj698LgWe0U8iS4jrH32PukEmPvm0"><a class="flex items-center gap-1.5 focus:outline-none" href="#hero"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">Dev<span class="text-primary drop-shadow-[0_0_12px_rgba(76,215,246,0.5)]">.AI</span></span></a></div><nav class="hidden xl:flex items-center gap-6" data-active-classes="text-primary font-headline-sm"><a aria-current="page" class="transition-colors text-primary font-headline-sm" data-path="portfolio" href="#hero">Início</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="sobre" href="#sobre">Sobre</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="habilidades" href="#habilidades">Habilidades</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="projetos" href="#projetos">Projetos</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="inteligencia-artificial" href="#ia">Inteligência Artificial</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="tecnologias" href="#tecnologias">Tecnologias</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="contato" href="#contato">Contato</a></nav><div class="flex items-center gap-4 shrink-0"><div class="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-low border border-outline-variant/60"><span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tertiary opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-tertiary"></span></span><span class="font-label-meta text-label-meta text-tertiary uppercase tracking-wider">Disponível para projetos</span></div><a class="relative inline-flex items-center justify-center p-0.5 overflow-hidden rounded-lg font-code-inline text-code-inline group bg-gradient-to-r from-primary via-tertiary to-secondary hover:shadow-[0_0_20px_rgba(76,215,246,0.3)] transition-all" href="#contato"><span class="relative px-4 py-2 transition-all ease-in duration-75 bg-surface-container-lowest rounded-[6px] text-on-surface group-hover:bg-opacity-0 group-hover:text-surface-container-lowest font-semibold">Fale Comigo</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- ========================================================================= -->
+<!-- 1. HERO SECTION (#hero)                                                    -->
+<!-- ========================================================================= -->
+<section class="relative w-full overflow-hidden pt-10 pb-20 lg:pt-16 lg:pb-32 bg-surface" id="hero">
+<!-- Ambient glowing backgrounds -->
+<div class="absolute -top-32 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-[120px] pointer-events-none"></div>
+<div class="absolute top-1/3 right-10 w-[450px] h-[450px] bg-secondary/10 rounded-full blur-[140px] pointer-events-none"></div>
+<div class="max-w-[1280px] mx-auto px-layout-margin-mobile lg:px-layout-margin-desktop relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Left Column: Hero Narrative & CTA -->
+<div class="lg:col-span-7 flex flex-col items-start gap-6">
+<!-- Availability Badge -->
+<div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-surface-container-high/70 shadow-sm backdrop-blur-md">
+<span class="relative flex h-2.5 w-2.5">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tertiary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-tertiary"></span>
+</span>
+<span class="font-label-meta text-label-meta text-on-surface uppercase tracking-wider font-semibold">
+              Disponível para novos projetos &amp; parcerias em IA
+            </span>
+</div>
+<!-- Name & Title -->
+<div class="flex flex-col gap-2">
+<h1 class="font-display-hero text-display-hero-mobile lg:text-display-hero tracking-tight text-on-surface">
+              Olá, eu sou <br><span class="bg-gradient-to-r from-on-surface via-primary to-secondary bg-clip-text text-transparent">LEANDRO TONIATI<br></span></h1>
+<p class="font-headline-sm text-headline-sm text-primary-fixed-dim font-medium tracking-normal mt-1">
+              Desenvolvedor Web <span class="text-outline-variant font-normal">|</span> Python <span class="text-outline-variant font-normal">|</span> Inteligência Artificial <span class="text-outline-variant font-normal">|</span> Engenharia de Prompt
+            </p>
+</div>
+<!-- Summary copy -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl leading-relaxed">
+            Criando soluções digitais que unem engenharia de software sólida, desenvolvimento web moderno e o poder da Inteligência Artificial Generativa para resolver problemas reais com automação e inovação.
+          </p>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-4 pt-2 w-full sm:w-auto">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-lg bg-gradient-to-r from-primary-container to-primary text-on-primary-container font-code-inline text-code-inline font-semibold shadow-lg shadow-primary/20 hover:shadow-primary/40 hover:-translate-y-0.5 active:scale-95 transition-all" href="#projetos">
+<span class="material-symbols-outlined text-[20px]">terminal</span>
+<span class="">Ver meus projetos</span>
+</a>
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-surface-container-high/60 text-on-surface font-code-inline text-code-inline hover:bg-surface-container-highest hover:-translate-y-0.5 active:scale-95 transition-all" href="#contato">
+<span class="material-symbols-outlined text-[20px]">alternate_email</span>
+<span class="">Entre em contato</span>
+</a>
+</div>
+<!-- Quick chips -->
+<div class="flex flex-wrap items-center gap-2.5 pt-4">
+<span class="px-3 py-1 rounded-full bg-surface-container-low text-on-surface-variant font-label-code-badge text-label-code-badge flex items-center gap-1.5">
+<span class="text-primary font-bold">✦</span> Next-gen Web
+            </span>
+<span class="px-3 py-1 rounded-full bg-surface-container-low text-on-surface-variant font-label-code-badge text-label-code-badge flex items-center gap-1.5">
+<span class="text-tertiary font-bold">✦</span> Python Automation
+            </span>
+<span class="px-3 py-1 rounded-full bg-surface-container-low text-on-surface-variant font-label-code-badge text-label-code-badge flex items-center gap-1.5">
+<span class="text-secondary font-bold">✦</span> LLM &amp; RAG Architectures
+            </span>
+</div>
+</div>
+<!-- Right Column: Interactive Code & AI Terminal Simulator -->
+<div class="lg:col-span-5 relative">
+<!-- Glass glow backdrop for the card -->
+<div class="absolute -inset-1 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-xl blur-xl opacity-75 group-hover:opacity-100 transition duration-1000"></div>
+<div class="relative bg-surface-container-lowest/90 rounded-xl shadow-2xl backdrop-blur-xl overflow-hidden">
+<!-- Window Title bar -->
+<div class="flex items-center justify-between px-4 py-3 bg-surface-container-low/80">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-error/70"></span>
+<span class="w-3 h-3 rounded-full bg-amber-400/70"></span>
+<span class="w-3 h-3 rounded-full bg-tertiary/70"></span>
+</div>
+<div class="font-label-code-badge text-label-code-badge text-on-surface-variant/70 flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px]">psychology</span>
+<span class="">ai-runtime-daemon v2.4</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span>
+<span class="font-label-meta text-[10px] text-tertiary">24ms</span>
+</div>
+</div>
+<!-- Tabs -->
+<div class="flex items-center bg-surface-container-lowest font-label-code-badge text-label-code-badge px-2">
+<button class="px-3.5 py-2 text-primary bg-surface-container-high/40 rounded-t-sm flex items-center gap-1.5 transition-all" id="heroTab1" onclick="switchHeroTab('rag')">
+<span class="material-symbols-outlined text-[14px] text-primary">data_object</span>
+<span class="">rag_pipeline.py</span>
+</button>
+<button class="px-3.5 py-2 text-on-surface-variant hover:text-on-surface rounded-t-sm flex items-center gap-1.5 transition-all" id="heroTab2" onclick="switchHeroTab('prompt')">
+<span class="material-symbols-outlined text-[14px] text-secondary">smart_toy</span>
+<span class="">prompt_engine.ai</span>
+</button>
+<button class="px-3.5 py-2 text-on-surface-variant hover:text-on-surface rounded-t-sm flex items-center gap-1.5 transition-all" id="heroTab3" onclick="switchHeroTab('metrics')">
+<span class="material-symbols-outlined text-[14px] text-tertiary">speed</span>
+<span class="">telemetry.json</span>
+</button>
+</div>
+<!-- Tab Content Pane -->
+<div class="p-5 font-code-inline text-code-inline leading-relaxed overflow-x-auto min-h-[290px] bg-surface-container-lowest">
+<div class="block space-y-1" id="tabContentRAG">
+<div class="text-outline-variant font-label-meta">// 1. Initialize High-Performance LLM Client</div>
+<div><span class="text-secondary">from</span> <span class="text-on-surface">groq</span> <span class="text-secondary">import</span> <span class="text-primary-fixed">Groq</span></div>
+<div><span class="text-secondary">from</span> <span class="text-on-surface">langchain.vectorstores</span> <span class="text-secondary">import</span> <span class="text-primary-fixed">Chroma</span></div>
+<br>
+<div class="text-outline-variant font-label-meta">// 2. Setup Vector Context &amp; Stream</div>
+<div class=""><span class="text-primary">client</span> = <span class="text-primary-fixed">Groq</span>(<span class="text-tertiary">api_key</span>=<span class="text-tertiary-fixed-dim">"gsk_live_env"</span>)</div>
+<div class=""><span class="text-primary">query</span> = <span class="text-tertiary-fixed-dim">"Qual o impacto do RAG na latência?"</span></div>
+<div class=""><span class="text-primary">ctx</span> = vector_store.<span class="text-primary">similarity_search</span>(query, k=<span class="text-secondary">3</span>)</div>
+<br>
+<div class=""><span class="text-primary">completion</span> = client.chat.completions.<span class="text-primary-fixed">create</span>(</div>
+<div class="pl-4"><span class="text-outline">model</span>=<span class="text-tertiary-fixed-dim">"llama-3.3-70b-versatile"</span>,</div>
+<div class="pl-4"><span class="text-outline">stream</span>=<span class="text-secondary">True</span>,</div>
+<div class="pl-4"><span class="text-outline">messages</span>=[{<span class="text-tertiary-fixed-dim">"role"</span>: <span class="text-tertiary-fixed-dim">"user"</span>, <span class="text-tertiary-fixed-dim">"content"</span>: ctx + query}]</div>
+<div class="">)</div>
+<div class="pt-2 text-tertiary font-label-code-badge flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">check_circle</span> Streaming chunks received: 148 tokens/sec
+                </div>
+</div>
+<div class="hidden space-y-1" id="tabContentPrompt">
+<div class="text-outline-variant font-label-meta">// System Prompt Engineering Strategy</div>
+<div class=""><span class="text-secondary">SYSTEM_TEMPLATE</span> = <span class="text-tertiary-fixed-dim">"""</span></div>
+<div class="text-on-surface-variant pl-3">[ROLE]: Senior Technical Architect</div>
+<div class="text-on-surface-variant pl-3">[GUARDRAILS]: Zero hallucination policy; cite docs.</div>
+<div class="text-on-surface-variant pl-3">[FEW_SHOT_EXAMPLE]:</div>
+<div class="text-primary-fixed pl-5">Q: Otimização de I/O em Python?</div>
+<div class="text-tertiary-fixed-dim pl-5">A: Utilize asyncio com aiofiles e pools assíncronos.</div>
+<div><span class="text-tertiary-fixed-dim">"""</span></div>
+<br>
+<div class="text-secondary">temperature = <span class="text-secondary">0.15</span> <span class="text-outline-variant">// Deterministic mode</span></div>
+<div class="text-secondary">top_p = <span class="text-secondary">0.90</span></div>
+</div>
+<div class="hidden space-y-1" id="tabContentMetrics">
+<div class="text-outline-variant font-label-meta">// Telemetry &amp; Benchmark Snapshot</div>
+<div class="">{</div>
+<div class="pl-4"><span class="text-primary">"status"</span>: <span class="text-tertiary-fixed-dim">"ONLINE"</span>,</div>
+<div class="pl-4"><span class="text-primary">"average_ttft_ms"</span>: <span class="text-secondary">24.2</span>,</div>
+<div class="pl-4"><span class="text-primary">"token_throughput"</span>: <span class="text-secondary">152.8</span>,</div>
+<div class="pl-4"><span class="text-primary">"rag_retrieval_acc"</span>: <span class="text-secondary">0.984</span>,</div>
+<div class="pl-4"><span class="text-primary">"active_models"</span>: [</div>
+<div class="pl-8"><span class="text-tertiary-fixed-dim">"Groq-Llama-3.3"</span>,</div>
+<div class="pl-8"><span class="text-tertiary-fixed-dim">"OpenAI-GPT-4o-Mini"</span></div>
+<div class="pl-4">],</div>
+<div class="pl-4"><span class="text-primary">"uptime"</span>: <span class="text-tertiary-fixed-dim">"99.98%"</span></div>
+<div class="">}</div>
+</div>
+</div>
+<!-- Terminal status bar -->
+<div class="px-4 py-2 bg-surface-container text-on-surface-variant font-label-meta text-label-meta flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[14px]">terminal</span>
+<span class="">bash - session: active</span>
+</div>
+<div class="text-outline">UTF-8 | LF | Python 3.12</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 2. SOBRE MIM (#sobre)                                                     -->
+<!-- ========================================================================= -->
+<section class="w-full py-20 lg:py-28 bg-surface-container-lowest" id="sobre">
+<div class="max-w-[1280px] mx-auto px-layout-margin-mobile lg:px-layout-margin-desktop">
+<!-- Section Header -->
+<div class="flex flex-col gap-2 mb-16">
+<div class="flex items-center gap-2 font-label-code-badge text-label-code-badge text-primary uppercase tracking-widest">
+<span class="text-tertiary font-bold">01 //</span> Perfil Profissional
+        </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+          Sobre mim
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+          Construindo pontes entre raciocínio lógico formal, algoritmos eficientes e a nova fronteira da inteligência computacional.
+        </p>
+</div>
+<!-- 2-Column Content Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+<!-- Left Column: Biography & Philosophy -->
+<div class="lg:col-span-5 bg-surface-container p-8 rounded-xl flex flex-col justify-between shadow-sm">
+<div class="space-y-5">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">code_blocks</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">
+              Engenharia orientada a resultados e aprendizado contínuo
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Minha trajetória é movida pelo fascínio em compreender sistemas complexos e convertê-los em aplicações práticas, intuitivas e robustas. Tenho paixão pelo desenvolvimento centrado no usuário e pela estruturação analítica de código.
+            </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Com sólidos fundamentos em lógica de programação e arquitetura de software usando <strong class="text-on-surface font-semibold">Python</strong> e <strong class="text-on-surface font-semibold">Java</strong>, concentro meus esforços atuais na intersecção entre o desenvolvimento web ágil e as capacidades transformadoras da <strong class="text-primary font-semibold">Inteligência Artificial Generativa</strong>.
+            </p>
+</div>
+<!-- Mini terminal callout -->
+<div class="mt-8 pt-6 bg-surface-container-lowest/60 p-4 rounded-lg">
+<div class="font-label-code-badge text-label-code-badge text-tertiary flex items-center gap-1.5 mb-1">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span class="">Filosofia de Código:</span>
+</div>
+<p class="font-code-inline text-body-sm text-on-surface-variant italic">
+              "Automatize o previsível, refine o raciocínio e potencialize soluções com inteligência cognitiva."
+            </p>
+</div>
+</div>
+<!-- Right Column: 4 Key Pillars (2x2 Grid) -->
+<div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
+<!-- Pillar 1 -->
+<div class="bg-surface-container p-6 rounded-xl flex flex-col justify-between hover:bg-surface-container-high transition-all duration-300">
+<div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest text-primary flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-[24px]">sports_esports</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">Construção Prática</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Desenvolvimento de jogos, interfaces dinâmicas e utilitários funcionais. Enfoque contínuo em soluções concretas e testáveis desde o primeiro protótipo.
+              </p>
+</div>
+<div class="mt-4 font-label-code-badge text-label-code-badge text-primary-fixed">
+              [ games // interfaces // tools ]
+            </div>
+</div>
+<!-- Pillar 2 -->
+<div class="bg-surface-container p-6 rounded-xl flex flex-col justify-between hover:bg-surface-container-high transition-all duration-300">
+<div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest text-tertiary flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-[24px]">auto_mode</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">Automação Inteligente</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Elaboração de scripts Python eficientes para eliminar tarefas repetitivas, extrair dados complexos e estruturar pipelines de processamento contínuo.
+              </p>
+</div>
+<div class="mt-4 font-label-code-badge text-label-code-badge text-tertiary">
+              [ scripts // workflows // etl ]
+            </div>
+</div>
+<!-- Pillar 3 -->
+<div class="bg-surface-container p-6 rounded-xl flex flex-col justify-between hover:bg-surface-container-high transition-all duration-300">
+<div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest text-secondary flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-[24px]">cognition</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">IA Aplicada</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Conexão de modelos LLM estado da arte (OpenAI, Groq) a sistemas interativos, frameworks rápidos como Streamlit e microsserviços modernos.
+              </p>
+</div>
+<div class="mt-4 font-label-code-badge text-label-code-badge text-secondary">
+              [ llms // groq // streamlit ]
+            </div>
+</div>
+<!-- Pillar 4 -->
+<div class="bg-surface-container p-6 rounded-xl flex flex-col justify-between hover:bg-surface-container-high transition-all duration-300">
+<div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest text-primary flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-[24px]">devices</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">Prototipagem Ágil</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Design de alta fidelidade e validação visual de interfaces modernas utilizando Google Stitch, priorizando padrões fluidos de UX e ergonomia de uso.
+              </p>
+</div>
+<div class="mt-4 font-label-code-badge text-label-code-badge text-primary-fixed">
+              [ google stitch // ui-ux // wireframe ]
+            </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 3. HABILIDADES (#habilidades)                                             -->
+<!-- ========================================================================= -->
+<section class="w-full py-20 lg:py-28 bg-surface" id="habilidades">
+<div class="max-w-[1280px] mx-auto px-layout-margin-mobile lg:px-layout-margin-desktop">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
+<div>
+<div class="flex items-center gap-2 font-label-code-badge text-label-code-badge text-primary uppercase tracking-widest">
+<span class="text-tertiary font-bold">02 //</span> Competências Técnicas
+          </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-2">
+            O que posso construir e entregar
+          </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Conjunto de ferramentas e conceitos de engenharia que aplico no desenvolvimento de aplicações modernas e seguras.
+        </p>
+</div>
+<!-- Skills Grid (12 Cards) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+<!-- Skill 1 -->
+<div class="bg-surface-container p-6 rounded-xl flex flex-col justify-between hover:-translate-y-1 hover:bg-surface-container-high transition-all duration-300 shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">html</span>
+</span>
+<span class="font-label-meta text-label-meta text-primary bg-primary/10 px-2 py-0.5 rounded">Front-End</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1.5">HTML5 &amp; CSS3</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Design responsivo adaptável, Flexbox, CSS Grid e semântica web de alta acessibilidade.</p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between text-outline-variant font-label-code-badge text-label-code-badge">
+<span class="">Fluência Prática</span>
+<span class="text-primary font-semibold">Avançado</span>
+</div>
+</div>
+<!-- Skill 2 -->
+<div class="bg-surface-container p-6 rounded-xl flex flex-col justify-between hover:-translate-y-1 hover:bg-surface-container-high transition-all duration-300 shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">javascript</span>
+</span>
+<span class="font-label-meta text-label-meta text-primary bg-primary/10 px-2 py-0.5 rounded">Linguagem</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1.5">JavaScript (ES6+)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Manipulação de DOM em tempo real, async/await, closures e integração de APIs REST com fetch.</p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between text-outline-variant font-label-code-badge text-label-code-badge">
+<span class="">Interatividade</span>
+<span class="text-primary font-semibold">Sólido</span>
+</div>
+</div>
+<!-- Skill 3 -->
+<div class="bg-surface-container p-6 rounded-xl flex flex-col justify-between hover:-translate-y-1 hover:bg-surface-container-high transition-all duration-300 shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[22px]">terminal</span>
+</span>
+<span class="font-label-meta text-label-meta text-tertiary bg-tertiary/10 px-2 py-0.5 rounded">Core Logic</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1.5">Python</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Lógica algorítmica apurada, estruturas de dados, automações, scripts modulares e data wrangling.</p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between text-outline-variant font-label-code-badge text-label-code-badge">
+<span class="">Especialidade</span>
+<span class="text-tertiary font-semibold">Núcleo</span>
+</div>
+</div>
+<!-- Skill 4 -->
+<div class="bg-surface-container p-6 rounded-xl flex flex-col justify-between hover:-translate-y-1 hover:bg-surface-container-high transition-all duration-300 shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[22px]">memory</span>
+</span>
+<span class="font-label-meta text-label-meta text-secondary bg-secondary/10 px-2 py-0.5 rounded">Arquitetura</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1.5">Java</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Conceitos sólidos de Orientação a Objetos (POO), interfaces gráficas com Swing/AWT e tipagem estática.</p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between text-outline-variant font-label-code-badge text-label-code-badge">
+<span class="">Paradigmas POO</span>
+<span class="text-secondary font-semibold">Sólido</span>
+</div>
+</div>
+<!-- Skill 5 -->
+<div class="bg-surface-container p-6 rounded-xl flex flex-col justify-between hover:-translate-y-1 hover:bg-surface-container-high transition-all duration-300 shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">swap_horiz</span>
+</span>
+<span class="font-label-meta text-label-meta text-primary bg-primary/10 px-2 py-0.5 rounded">Backend</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1.5">APIs REST &amp; Integrações</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Consumo de endpoints, autenticação via Bearer Tokens, webhooks e manipulação avançada de JSON.</p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between text-outline-variant font-label-code-badge text-label-code-badge">
+<span class="">Comunicação</span>
+<span class="text-primary font-semibold">Fluente</span>
+</div>
+</div>
+<!-- Skill 6 -->
+<div class="bg-surface-container p-6 rounded-xl flex flex-col justify-between hover:-translate-y-1 hover:bg-surface-container-high transition-all duration-300 shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[22px]">bolt</span>
+</span>
+<span class="font-label-meta text-label-meta text-tertiary bg-tertiary/10 px-2 py-0.5 rounded">IA de Ponta</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1.5">OpenAI &amp; Groq APIs</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Invocação de modelos LLM ultrarrápidos (LPUs Groq) e GPT-4o com streaming e controle de custos.</p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between text-outline-variant font-label-code-badge text-label-code-badge">
+<span class="">Latência</span>
+<span class="text-tertiary font-semibold">&lt; 30ms</span>
+</div>
+</div>
+<!-- Skill 7 -->
+<div class="bg-surface-container p-6 rounded-xl flex flex-col justify-between hover:-translate-y-1 hover:bg-surface-container-high transition-all duration-300 shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[22px]">dashboard_customize</span>
+</span>
+<span class="font-label-meta text-label-meta text-secondary bg-secondary/10 px-2 py-0.5 rounded">Framework</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1.5">Streamlit</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Prototipagem ágil e implantação de interfaces gráficas reativas para visualização de dados e IA.</p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between text-outline-variant font-label-code-badge text-label-code-badge">
+<span class="">Prototipagem</span>
+<span class="text-secondary font-semibold">Veloz</span>
+</div>
+</div>
+<!-- Skill 8 -->
+<div class="bg-surface-container p-6 rounded-xl flex flex-col justify-between hover:-translate-y-1 hover:bg-surface-container-high transition-all duration-300 shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">psychology_alt</span>
+</span>
+<span class="font-label-meta text-label-meta text-primary bg-primary/10 px-2 py-0.5 rounded">Prompt Eng</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1.5">Engenharia de Prompt</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Arquiteturas de prompts Zero-shot, Few-shot, Chain-of-Thought e validações com guardrails robustos.</p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between text-outline-variant font-label-code-badge text-label-code-badge">
+<span class="">Precisão</span>
+<span class="text-primary font-semibold">Especialista</span>
+</div>
+</div>
+<!-- Skill 9 -->
+<div class="bg-surface-container p-6 rounded-xl flex flex-col justify-between hover:-translate-y-1 hover:bg-surface-container-high transition-all duration-300 shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[22px]">neurology</span>
+</span>
+<span class="font-label-meta text-label-meta text-tertiary bg-tertiary/10 px-2 py-0.5 rounded">Machine Learning</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1.5">ML &amp; IA Generativa</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Fundamentos teóricos de aprendizado supervisionado, embeddings multidimensionais e fine-tuning.</p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between text-outline-variant font-label-code-badge text-label-code-badge">
+<span class="">Conceitos</span>
+<span class="text-tertiary font-semibold">Teoria &amp; Aplicação</span>
+</div>
+</div>
+<!-- Skill 10 -->
+<div class="bg-surface-container p-6 rounded-xl flex flex-col justify-between hover:-translate-y-1 hover:bg-surface-container-high transition-all duration-300 shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[22px]">dataset</span>
+</span>
+<span class="font-label-meta text-label-meta text-secondary bg-secondary/10 px-2 py-0.5 rounded">Search</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1.5">Arquitetura RAG</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Recuperação contextual semântica baseada em vetores para respostas fundamentadas e sem alucinação.</p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between text-outline-variant font-label-code-badge text-label-code-badge">
+<span class="">Contextualização</span>
+<span class="text-secondary font-semibold">Avançado</span>
+</div>
+</div>
+<!-- Skill 11 -->
+<div class="bg-surface-container p-6 rounded-xl flex flex-col justify-between hover:-translate-y-1 hover:bg-surface-container-high transition-all duration-300 shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">description</span>
+</span>
+<span class="font-label-meta text-label-meta text-primary bg-primary/10 px-2 py-0.5 rounded">Automação</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1.5">Automação de Relatórios</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pipelines em Python para síntese automática de documentos, extração de métricas e geração de PDFs.</p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between text-outline-variant font-label-code-badge text-label-code-badge">
+<span class="">Eficiência</span>
+<span class="text-primary font-semibold">Produtividade</span>
+</div>
+</div>
+<!-- Skill 12 -->
+<div class="bg-surface-container p-6 rounded-xl flex flex-col justify-between hover:-translate-y-1 hover:bg-surface-container-high transition-all duration-300 shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[22px]">grid_view</span>
+</span>
+<span class="font-label-meta text-label-meta text-tertiary bg-tertiary/10 px-2 py-0.5 rounded">Design UI</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1.5">Google Stitch</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Design rápido de interfaces modernas, exploração de layouts visuais e concepção funcional de produtos.</p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between text-outline-variant font-label-code-badge text-label-code-badge">
+<span class="">Validação UX</span>
+<span class="text-tertiary font-semibold">Ágil</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 4. PROJETOS (#projetos)                                                   -->
+<!-- ========================================================================= -->
+<section class="w-full py-20 lg:py-28 bg-surface-container-lowest" id="projetos">
+<div class="max-w-[1280px] mx-auto px-layout-margin-mobile lg:px-layout-margin-desktop">
+<!-- Section Header -->
+<div class="flex flex-col items-center text-center mb-12">
+<div class="inline-flex items-center gap-2 font-label-code-badge text-label-code-badge text-primary uppercase tracking-widest mb-2">
+<span class="text-tertiary font-bold">03 //</span> Portfólio de Engenharia
+        </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+          Projetos Desenvolvidos
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mt-2">
+          Explore implementações práticas que cobrem desenvolvimento web, algoritmos em Python e Java, até sistemas generativos com IA.
+        </p>
+<!-- Interactive Category Filter Tabs -->
+<div class="flex flex-wrap items-center justify-center gap-2 mt-8 p-1.5 bg-surface-container rounded-full">
+<button class="filter-btn active-tab px-4 py-2 rounded-full font-label-code-badge text-label-code-badge transition-all bg-primary text-on-primary font-semibold" data-category="all" onclick="filterProjects('all')">
+            Todos (12)
+          </button>
+<button class="filter-btn px-4 py-2 rounded-full font-label-code-badge text-label-code-badge text-on-surface-variant hover:text-on-surface transition-all" data-category="web" onclick="filterProjects('web')">
+            Desenvolvimento Web
+          </button>
+<button class="filter-btn px-4 py-2 rounded-full font-label-code-badge text-label-code-badge text-on-surface-variant hover:text-on-surface transition-all" data-category="python" onclick="filterProjects('python')">
+            Python
+          </button>
+<button class="filter-btn px-4 py-2 rounded-full font-label-code-badge text-label-code-badge text-on-surface-variant hover:text-on-surface transition-all" data-category="java" onclick="filterProjects('java')">
+            Java
+          </button>
+<button class="filter-btn px-4 py-2 rounded-full font-label-code-badge text-label-code-badge text-on-surface-variant hover:text-on-surface transition-all" data-category="ia" onclick="filterProjects('ia')">
+            Inteligência Artificial
+          </button>
+</div>
+</div>
+<!-- Project Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="projectGrid">
+<!-- PROJETO 1 (Web) -->
+<div class="project-card bg-surface-container rounded-xl overflow-hidden shadow-sm flex flex-col justify-between group hover:shadow-xl hover:shadow-primary/5 hover:-translate-y-1 transition-all duration-300" data-cat="web">
+<div>
+<div class="h-48 w-full overflow-hidden relative bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Screenshot of a neon retro Snake game in dark theme with glowing green food items and dynamic collision grid rendered on an arcade style digital monitor" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCly7DX9B2TBYLFLbGEU6fAdy6X7aPYrvofhXmK8X3ISOWO5Ww5fSQEkM8nyJDntQj3VIj6jUAvb7eGkeZee_ghjIrb6a5U8qGoDBpSt2wInHAonvzrBHQ6ZAzFVXdc9SkYg9QGEhIf_Vewmtnoej5jYRkMmad6b3b5eJV7q_eJUQjrRgJm1zK28iufwJOjB3i_C4ASkd5-FAqg_XnM3MlFucJBUzwga_DPFEvORqY5CNMQxJo8zoIO">
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md text-primary font-label-code-badge text-label-code-badge">
+                Web
+              </div>
+</div>
+<div class="p-6">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mb-2">
+                Jogo da Cobrinha (Snake Game)
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 mb-4">
+                Clássico jogo retro com engine própria em JavaScript puro, detecção precisa de colisões em grade, placar dinâmico com salvamento em LocalStorage e comandos fluidos.
+              </p>
+<div class="flex flex-wrap gap-1.5 mb-4">
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ HTML5 ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ CSS3 ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ JavaScript ]</span>
+</div>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2 flex items-center gap-3">
+<a class="flex-1 text-center py-2 px-3 rounded bg-primary/10 text-primary hover:bg-primary hover:text-on-primary font-code-inline text-code-inline font-medium transition-all" href="#hero">
+              Ver projeto
+            </a>
+<a class="py-2 px-3 rounded bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-all" href="https://github.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">code</span>
+</a>
+</div>
+</div>
+<!-- PROJETO 2 (Web) -->
+<div class="project-card bg-surface-container rounded-xl overflow-hidden shadow-sm flex flex-col justify-between group hover:shadow-xl hover:shadow-primary/5 hover:-translate-y-1 transition-all duration-300" data-cat="web">
+<div>
+<div class="h-48 w-full overflow-hidden relative bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="High precision modern dark web portfolio interface featuring glowing typography, technical widgets, metrics panels, and sleek cyan accents on deep blue background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiKEIBtwoKRqcB-q6CwU4eBUFBr9iTFNx63jzDHvlapcJzVMNTsELEGUig9awKfE9PeJfrvIvXSFwtStJzSQEM_Gi6Ly01P6w6ocIs4-ZUkgAg4PMk9i-js262WV91UI7MTd104jD7RaIID48H5_mhQ9J5MMZuaJge-o62qqVxV5i1w1eSSawUhdLhAa7Yws3nKwNQHSMz8kFQzCXECcpGplXHw30ZTQP6ZzhMang3yZOWRG2m6X_j">
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md text-primary font-label-code-badge text-label-code-badge">
+                Web
+              </div>
+</div>
+<div class="p-6">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mb-2">
+                Portfólio Web Pessoal
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 mb-4">
+                Landing page responsiva de altíssimo padrão visual construída com design system rigoroso, hierarquia clara, microinterações refinadas e tema escuro tecnológico.
+              </p>
+<div class="flex flex-wrap gap-1.5 mb-4">
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ HTML5 ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ Tailwind CSS ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ JS Moderno ]</span>
+</div>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2 flex items-center gap-3">
+<a class="flex-1 text-center py-2 px-3 rounded bg-primary/10 text-primary hover:bg-primary hover:text-on-primary font-code-inline text-code-inline font-medium transition-all" href="#hero">
+              Ver projeto
+            </a>
+<a class="py-2 px-3 rounded bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-all" href="https://github.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">code</span>
+</a>
+</div>
+</div>
+<!-- PROJETO 3 (Web) -->
+<div class="project-card bg-surface-container rounded-xl overflow-hidden shadow-sm flex flex-col justify-between group hover:shadow-xl hover:shadow-primary/5 hover:-translate-y-1 transition-all duration-300" data-cat="web">
+<div>
+<div class="h-48 w-full overflow-hidden relative bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern conversational chatbot web UI in dark glassmorphism styling, showing real-time token streaming text and interactive prompt input bar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKEV7sfn9WBisWGRG7isTMLBYPzI4GxveGzt9lZbmXI3npbepAbkW3fB3eYudtYrWMvTAnXIkzdL3cphER5-nUi86cpz4tf2g71sbvh_R_qS_cEB8zihklAglF51DuJG-h_hT9SCO3_09di6LGTTyOcmYb_-BQ3kSVY4GhCgWP49ukI6nB03STxHRTyHATpiQBnjR8wwxRoBma9teubstsMdd4_Cgpd-NWVI9l6KKwfy9x_BvnHLBC">
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md text-primary font-label-code-badge text-label-code-badge">
+                Web
+              </div>
+</div>
+<div class="p-6">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mb-2">
+                Interface ChatGPT com API
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 mb-4">
+                Clone reativo com streaming de respostas token por token, suporte a histórico de conversas em memória de sessão e parametrização de temperatura via interface.
+              </p>
+<div class="flex flex-wrap gap-1.5 mb-4">
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ JavaScript ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ CSS Grid ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ REST API ]</span>
+</div>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2 flex items-center gap-3">
+<a class="flex-1 text-center py-2 px-3 rounded bg-primary/10 text-primary hover:bg-primary hover:text-on-primary font-code-inline text-code-inline font-medium transition-all" href="#hero">
+              Ver projeto
+            </a>
+<a class="py-2 px-3 rounded bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-all" href="https://github.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">code</span>
+</a>
+</div>
+</div>
+<!-- PROJETO 4 (Python) -->
+<div class="project-card bg-surface-container rounded-xl overflow-hidden shadow-sm flex flex-col justify-between group hover:shadow-xl hover:shadow-tertiary/5 hover:-translate-y-1 transition-all duration-300" data-cat="python">
+<div>
+<div class="h-48 w-full overflow-hidden relative bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A sleek dark terminal running an interactive Rock Paper Scissors game in Python with ASCII graphics and colored probability outputs" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCKZu8KOeYURSTETOcS09y_Mr4Y7Gvqux-7O_PK2ggn7C21YImCJaw6LWV77DbjKollymWRqk6_w02Jamq-lf0Ulsvm442WUqWLSudcoZBtzIDVjMVbnZVGj1YjsZJbKj0-zb3bAu_w2A65k1VaievgeJUQrst8Wy7wQEqFvJaJiYPyVuKp6SpwEMCVvqME8bwbJfCh5cMZzid053DLT5sfZ0Coxo2Uoq0QrajqPla-NBAA25qLIcIb">
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md text-tertiary font-label-code-badge text-label-code-badge">
+                Python
+              </div>
+</div>
+<div class="p-6">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-tertiary transition-colors mb-2">
+                Pedra, Papel e Tesoura CLI
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 mb-4">
+                Jogo de linha de comando com algoritmo estocástico de contramedidas do computador, validação de entradas, placar persistente e relatórios de vitórias.
+              </p>
+<div class="flex flex-wrap gap-1.5 mb-4">
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ Python ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ Módulo Random ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ CLI ]</span>
+</div>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2 flex items-center gap-3">
+<a class="flex-1 text-center py-2 px-3 rounded bg-tertiary/10 text-tertiary hover:bg-tertiary hover:text-on-tertiary font-code-inline text-code-inline font-medium transition-all" href="#hero">
+              Ver projeto
+            </a>
+<a class="py-2 px-3 rounded bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-all" href="https://github.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">code</span>
+</a>
+</div>
+</div>
+<!-- PROJETO 5 (Python) -->
+<div class="project-card bg-surface-container rounded-xl overflow-hidden shadow-sm flex flex-col justify-between group hover:shadow-xl hover:shadow-tertiary/5 hover:-translate-y-1 transition-all duration-300" data-cat="python">
+<div>
+<div class="h-48 w-full overflow-hidden relative bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Code editor showing Python binary search algorithm and interactive number guessing logic with colored syntax highlighting in dark mode" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6azIR1CPIH6u5rCN3Ko3D6Xp_l9BBV6F9pnt8G-0CoK-CamJgMujwmMVwjGbZ2SVy1D2AUuzyb_kP2YuYIQwclDTjYBIsUDZfIR1PMI6GiiivyyVVpa96_Mpc5f_PDjK7xDaSulz-DYdDEksHxKLwQWLarYmdrynVo0Rx7LS6qrmFIZf42v_OPKaLKD6cJGQjyNAOhf6dNdiY-SYGDkQW2_BZBTupyHF5BAZqLFcNyp3WTvotFswA">
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md text-tertiary font-label-code-badge text-label-code-badge">
+                Python
+              </div>
+</div>
+<div class="p-6">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-tertiary transition-colors mb-2">
+                Adivinhe o Número (Smart Solver)
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 mb-4">
+                Algoritmo com dicas contextuais inteligentes de maior/menor, limitação de chances com curva de dificuldade exponencial e sistema de pontuação baseado em precisão.
+              </p>
+<div class="flex flex-wrap gap-1.5 mb-4">
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ Python 3 ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ Algoritmos ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ Lógica ]</span>
+</div>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2 flex items-center gap-3">
+<a class="flex-1 text-center py-2 px-3 rounded bg-tertiary/10 text-tertiary hover:bg-tertiary hover:text-on-tertiary font-code-inline text-code-inline font-medium transition-all" href="#hero">
+              Ver projeto
+            </a>
+<a class="py-2 px-3 rounded bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-all" href="https://github.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">code</span>
+</a>
+</div>
+</div>
+<!-- PROJETO 6 (Python) -->
+<div class="project-card bg-surface-container rounded-xl overflow-hidden shadow-sm flex flex-col justify-between group hover:shadow-xl hover:shadow-tertiary/5 hover:-translate-y-1 transition-all duration-300" data-cat="python">
+<div>
+<div class="h-48 w-full overflow-hidden relative bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Statistical visualization of lottery number distribution with clean charts, matrix permutations and Python terminal analytics" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlF_uYj_cpBiCXRc7xjOM1X4Zmh8XSx1vPoODAQJu9sdJO14xpq_rQ16qRlpDLwHV0aFnMAfSzIYD8V8vyFF2QAyZLatBA4pz60cJZN3ayvUBaDVxRXc52NwS3VZn4O-eMGNLrbq-XxBWts_LlDJWYsEIQV16jonpmoXmLucW8_mVbuv4NNOX4MjPB_U4HSfSS80P-d_7Ov6lhSqaNOhyVqIEXJYRpG_RbGDvAIw86ycjSrQpw0dsT">
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md text-tertiary font-label-code-badge text-label-code-badge">
+                Python
+              </div>
+</div>
+<div class="p-6">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-tertiary transition-colors mb-2">
+                Sorteio de Jogos da Mega-Sena
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 mb-4">
+                Gerador estocástico de bilhetes aleatórios sem repetições, com filtros de frequência histórica, opções de fechamento matemático e exportação em formato tabular.
+              </p>
+<div class="flex flex-wrap gap-1.5 mb-4">
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ Python ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ Estatística ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ Random/Math ]</span>
+</div>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2 flex items-center gap-3">
+<a class="flex-1 text-center py-2 px-3 rounded bg-tertiary/10 text-tertiary hover:bg-tertiary hover:text-on-tertiary font-code-inline text-code-inline font-medium transition-all" href="#hero">
+              Ver projeto
+            </a>
+<a class="py-2 px-3 rounded bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-all" href="https://github.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">code</span>
+</a>
+</div>
+</div>
+<!-- PROJETO 7 (Java) -->
+<div class="project-card bg-surface-container rounded-xl overflow-hidden shadow-sm flex flex-col justify-between group hover:shadow-xl hover:shadow-secondary/5 hover:-translate-y-1 transition-all duration-300" data-cat="java">
+<div>
+<div class="h-48 w-full overflow-hidden relative bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Minimalist digital clock desktop application rendered in Java Swing with multiple timezone tickers and clean slate aesthetics" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCidW_aNKss2xUulIoHpf_ZFv5e2o4jZTuLEGXr_mpQeRv6fF2pG01n_T3yHZnZb0RVSn3alsSofHkPx75WMvahL17yGGhrQvL4DAYc8uOY-xNJDRBvjXWmpMBGvVVhXlXPomCVLUJ9mw6Rqe6mPcKeQ-GMHO2Hnw0Y11DdiJeEK0dgAgxF_3xyo7NNMoXtoDChbAKcHEjJ8Ry13xGrye6R2utBKyhEWwH4tcrmW3WePa5iDtfWjbgq">
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md text-secondary font-label-code-badge text-label-code-badge">
+                Java
+              </div>
+</div>
+<div class="p-6">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors mb-2">
+                Aplicativo de Relógio Digital
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 mb-4">
+                Software desktop utilizando Threads paralelas para contagem contínua em milissegundos sem congelamento de interface gráfica, com suporte a múltiplos fusos horários.
+              </p>
+<div class="flex flex-wrap gap-1.5 mb-4">
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ Java ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ Swing / AWT ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ Multithreading ]</span>
+</div>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2 flex items-center gap-3">
+<a class="flex-1 text-center py-2 px-3 rounded bg-secondary/10 text-secondary hover:bg-secondary hover:text-on-secondary font-code-inline text-code-inline font-medium transition-all" href="#hero">
+              Ver projeto
+            </a>
+<a class="py-2 px-3 rounded bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-all" href="https://github.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">code</span>
+</a>
+</div>
+</div>
+<!-- PROJETO 8 (Java) -->
+<div class="project-card bg-surface-container rounded-xl overflow-hidden shadow-sm flex flex-col justify-between group hover:shadow-xl hover:shadow-secondary/5 hover:-translate-y-1 transition-all duration-300" data-cat="java">
+<div>
+<div class="h-48 w-full overflow-hidden relative bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Desktop GUI component laboratory in Java displaying event listener buttons, sliders, input forms and OOP inheritance hierarchy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzJn88UsVvznvThFcfVXxB2ohFAeHu11J6CjmvXxSY5pSkERxbUThl-knJQbc67BorV1dBa4NB5b1DDdvYwgSCFuRGqg_wcfogxxQQK23Cqou1kuWzyMwAZv8_ZWzp0-nR9TP7Jg7MoS1B8hRtu6zkuX0G6B2QbW2JMRvjBgnbdx-2H-z6xPlhG_byjqI5JHIAJ39jCFQR9DIsj6SFm24UHM47FBUzEykxt2vUAQZHqjWIdkpCTJOY">
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md text-secondary font-label-code-badge text-label-code-badge">
+                Java
+              </div>
+</div>
+<div class="p-6">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors mb-2">
+                Laboratório de Componentes GUI
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 mb-4">
+                Suíte de testes práticos explorando padrões de design orientados a objetos, tratamento de eventos assíncronos de mouse/teclado e layouts fluidos customizados.
+              </p>
+<div class="flex flex-wrap gap-1.5 mb-4">
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ Java OOP ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ Event Listeners ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ GUI Kit ]</span>
+</div>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2 flex items-center gap-3">
+<a class="flex-1 text-center py-2 px-3 rounded bg-secondary/10 text-secondary hover:bg-secondary hover:text-on-secondary font-code-inline text-code-inline font-medium transition-all" href="#hero">
+              Ver projeto
+            </a>
+<a class="py-2 px-3 rounded bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-all" href="https://github.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">code</span>
+</a>
+</div>
+</div>
+<!-- PROJETO 9 (IA) -->
+<div class="project-card bg-surface-container rounded-xl overflow-hidden shadow-sm flex flex-col justify-between group hover:shadow-xl hover:shadow-primary/10 hover:-translate-y-1 transition-all duration-300" data-cat="ia">
+<div>
+<div class="h-48 w-full overflow-hidden relative bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Neural network node connections overlaid with a terminal chatbot engine powered by Groq and OpenAI streaming intelligent prompts" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQ_s6yagMtkCmNeOX5i9jDJ1dsuDlhb0uMRPDcn2cp2IonzW22cZC0JG_vPj4jdv1OqnRjEiHSni2AXRSNPdbl8I6q577EehUuE2Z57GAARtuALhbWI7hgfYvxpxrUl8iwdDt3GE5NdnhtwxnVukIOKw1_nFcxDeFSAyex-P-sZrkEIGsmQ_NSzFfoT7GtyMSEXxSVPoHMJYjrJeIxc98F583qRFvQMvptheHA800ngJL--6LXw1qB">
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md text-primary font-label-code-badge text-label-code-badge">
+                Inteligência Artificial
+              </div>
+</div>
+<div class="p-6">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mb-2">
+                Chatbots com Python &amp; IA
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 mb-4">
+                Assistentes de diálogo inteligente com retenção dinâmica de contexto conversacional, personalidades intercambiáveis e chaveamento automático entre modelos OpenAI e Groq.
+              </p>
+<div class="flex flex-wrap gap-1.5 mb-4">
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ Python ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ OpenAI API ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ Groq LPU ]</span>
+</div>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2 flex items-center gap-3">
+<a class="flex-1 text-center py-2 px-3 rounded bg-primary/10 text-primary hover:bg-primary hover:text-on-primary font-code-inline text-code-inline font-medium transition-all" href="#hero">
+              Ver projeto
+            </a>
+<a class="py-2 px-3 rounded bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-all" href="https://github.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">code</span>
+</a>
+</div>
+</div>
+<!-- PROJETO 10 (IA) -->
+<div class="project-card bg-surface-container rounded-xl overflow-hidden shadow-sm flex flex-col justify-between group hover:shadow-xl hover:shadow-primary/10 hover:-translate-y-1 transition-all duration-300" data-cat="ia">
+<div>
+<div class="h-48 w-full overflow-hidden relative bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="High tech Streamlit interactive data dashboard with real-time KPI metrics, sentiment gauges and dynamic prompt evaluation metrics" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB41AQ7CUYXo1RkCnwUvyonoaQc6ker2m0f009rJw7RJsiUzE9FxnO_YhbjK9VRhJzRnyOKt9gMM0_UqVmrEc8qn6A-iQzpKcPrExYctDB5EztyjvGFhrcMSH804iiorafrQOR5s7OJ6x4m7vTC8gHYMpa-kyynb9bIPWDaqsxSOJaDcSDNBTww6YQCHp6M0cox7_mA2gNHbl8LqBH-4Dn1KWnMs4dQYqBz-me5SdqCqGdczHIIyefW">
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md text-primary font-label-code-badge text-label-code-badge">
+                Inteligência Artificial
+              </div>
+</div>
+<div class="p-6">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mb-2">
+                Aplicações de Dados com Streamlit
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 mb-4">
+                Dashboard interativo com gráficos em tempo real, visualização de análise de sentimentos e playground para teste e refinamento de prompts em lote.
+              </p>
+<div class="flex flex-wrap gap-1.5 mb-4">
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ Streamlit ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ Python ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ LLMs ]</span>
+</div>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2 flex items-center gap-3">
+<a class="flex-1 text-center py-2 px-3 rounded bg-primary/10 text-primary hover:bg-primary hover:text-on-primary font-code-inline text-code-inline font-medium transition-all" href="#hero">
+              Ver projeto
+            </a>
+<a class="py-2 px-3 rounded bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-all" href="https://github.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">code</span>
+</a>
+</div>
+</div>
+<!-- PROJETO 11 (IA) -->
+<div class="project-card bg-surface-container rounded-xl overflow-hidden shadow-sm flex flex-col justify-between group hover:shadow-xl hover:shadow-primary/10 hover:-translate-y-1 transition-all duration-300" data-cat="ia">
+<div>
+<div class="h-48 w-full overflow-hidden relative bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Automated technical documentation generator pipeline screen with extracted summary cards and structured markdown output" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuV6q-5JLaR9WVrTCgd5Gs0s5FqbLCLdrPb3A_ubyCFbln5Rxynw9rj5xF8FW5JMfUBgdefy613C04VduxQ_95hLbaWo6QMKDNIEDjsvm5HGaQONQ4WhHrZ4nZYbs2RQeZBH4DqJZfe9G3iL8HYroy90BBxZlny0L_zN08a3VXr39BzszhY6zIbLBY3d1Eaf6hyvzUAKcNc7TDpANvj-8QYbCT1UPJoprbze0yeXIYbrBl8aaCM7JP">
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md text-primary font-label-code-badge text-label-code-badge">
+                Inteligência Artificial
+              </div>
+</div>
+<div class="p-6">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mb-2">
+                Automação de Geração de Documentos
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 mb-4">
+                Pipeline em Python que lê dados crus, processa com prompts estruturados e gera relatórios executivos em Markdown e PDF com zero intervenção manual.
+              </p>
+<div class="flex flex-wrap gap-1.5 mb-4">
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ Prompting ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ ChatGPT API ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ PDF Automation ]</span>
+</div>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2 flex items-center gap-3">
+<a class="flex-1 text-center py-2 px-3 rounded bg-primary/10 text-primary hover:bg-primary hover:text-on-primary font-code-inline text-code-inline font-medium transition-all" href="#hero">
+              Ver projeto
+            </a>
+<a class="py-2 px-3 rounded bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-all" href="https://github.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">code</span>
+</a>
+</div>
+</div>
+<!-- PROJETO 12 (IA) -->
+<div class="project-card bg-surface-container rounded-xl overflow-hidden shadow-sm flex flex-col justify-between group hover:shadow-xl hover:shadow-primary/10 hover:-translate-y-1 transition-all duration-300" data-cat="ia">
+<div>
+<div class="h-48 w-full overflow-hidden relative bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Vector database semantic search interface with similarity score bars, embeddings cluster map and factual context answer display" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrpMEW4NgaavvH535WgbrUcvHvoPUzsXD9aK7bg5_iD7_TY3ohN0Re_kjjcT47HG_xJzYyZ1Jz0_GZrHL3UrHKVHsCm3cz2qPtzS8FpACyzylZp2q8AIFZh9XO3s-hCIqunIAY9cRDVfNgMeZyyw7eQ4VlVu_13ukPxuYTGD5Abq1O4f075gX4OTUHH7DuPRWAwIOU5m7oE0EANRWkAOK4NSN9UNsttryvjT62QLkqJy50TRZkjJmI">
+<div class="absolute top-3 right-3 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md text-primary font-label-code-badge text-label-code-badge">
+                Inteligência Artificial
+              </div>
+</div>
+<div class="p-6">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mb-2">
+                RAG Explorer &amp; Knowledge Assistant
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 mb-4">
+                Protótipo demonstrando recuperação semântica em base vetorial local. Respostas verificáveis embasadas com referências exatas de trechos dos documentos-fonte.
+              </p>
+<div class="flex flex-wrap gap-1.5 mb-4">
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ RAG Architecture ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ Embeddings ]</span>
+<span class="px-2 py-0.5 rounded font-label-code-badge text-[11px] bg-surface-container-high text-on-surface-variant">[ IA Generativa ]</span>
+</div>
+</div>
+</div>
+<div class="px-6 pb-6 pt-2 flex items-center gap-3">
+<a class="flex-1 text-center py-2 px-3 rounded bg-primary/10 text-primary hover:bg-primary hover:text-on-primary font-code-inline text-code-inline font-medium transition-all" href="#hero">
+              Ver projeto
+            </a>
+<a class="py-2 px-3 rounded bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-all" href="https://github.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">code</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 5. SEÇÃO ESPECÍFICA: INTELIGÊNCIA ARTIFICIAL & ENGENHARIA DE PROMPT (#ia)   -->
+<!-- ========================================================================= -->
+<section class="relative w-full py-20 lg:py-28 bg-surface overflow-hidden" id="ia">
+<!-- Neon Radial Glows -->
+<div class="absolute top-1/2 left-0 w-[500px] h-[500px] bg-primary/10 rounded-full blur-[140px] pointer-events-none"></div>
+<div class="absolute bottom-0 right-10 w-[450px] h-[450px] bg-secondary/15 rounded-full blur-[130px] pointer-events-none"></div>
+<div class="max-w-[1280px] mx-auto px-layout-margin-mobile lg:px-layout-margin-desktop relative z-10">
+<!-- Section Header -->
+<div class="flex flex-col items-center text-center mb-16">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high text-secondary font-label-code-badge text-label-code-badge uppercase tracking-widest mb-3">
+<span class="material-symbols-outlined text-[16px] text-secondary">auto_awesome</span>
+          Domínio de Ponta
+        </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+          Inteligência Artificial &amp; Engenharia de Prompt
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mt-2">
+          Além de consumir modelos: desenhando arquiteturas cognitivas precisas, fluxos de orquestração velozes e integrações que geram valor real.
+        </p>
+</div>
+<!-- Feature Grid (6 Specialized Cards) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Card 1: Engenharia de Prompt -->
+<div class="bg-surface-container-low/90 backdrop-blur-md p-8 rounded-xl flex flex-col justify-between hover:bg-surface-container transition-all duration-300 shadow-sm">
+<div>
+<div class="w-12 h-12 rounded-xl bg-primary/15 text-primary flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[28px]">tune</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">
+              Engenharia de Prompt Especializada
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">
+              Domínio completo de técnicas de elicitação cognitiva para extrair o comportamento ideal dos modelos:
+            </p>
+<ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-2">
+<span class="text-primary font-bold">›</span>
+<span class=""><strong class="text-on-surface">Zero-Shot:</strong> Diretrizes estritas e estruturação sem ruído.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="text-primary font-bold">›</span>
+<span class=""><strong class="text-on-surface">One-Shot:</strong> Ancoragem canônica de padrão de saída.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="text-primary font-bold">›</span>
+<span class=""><strong class="text-on-surface">Few-Shot:</strong> Variações de borda para precisão máxima.</span>
+</li>
+</ul>
+</div>
+<div class="mt-6 pt-4 font-label-code-badge text-label-code-badge text-primary-fixed">
+            [ System Prompts // Guardrails ]
+          </div>
+</div>
+<!-- Card 2: Arquitetura RAG -->
+<div class="bg-surface-container-low/90 backdrop-blur-md p-8 rounded-xl flex flex-col justify-between hover:bg-surface-container transition-all duration-300 shadow-sm">
+<div>
+<div class="w-12 h-12 rounded-xl bg-secondary/15 text-secondary flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[28px]">hub</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">
+              Arquitetura RAG Semântica
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">
+              Eliminação de alucinações através de recuperação contextual aumentada em bases de dados proprietárias:
+            </p>
+<ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-2">
+<span class="text-secondary font-bold">›</span>
+<span class="">Chunking dinâmico com sobreposição contextual.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="text-secondary font-bold">›</span>
+<span class="">Embeddings multidimensionais para busca vetorial.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="text-secondary font-bold">›</span>
+<span class="">Citação exata de fontes verificáveis nos outputs.</span>
+</li>
+</ul>
+</div>
+<div class="mt-6 pt-4 font-label-code-badge text-label-code-badge text-secondary">
+            [ Retrieval-Augmented Generation ]
+          </div>
+</div>
+<!-- Card 3: Orquestração de APIs -->
+<div class="bg-surface-container-low/90 backdrop-blur-md p-8 rounded-xl flex flex-col justify-between hover:bg-surface-container transition-all duration-300 shadow-sm">
+<div>
+<div class="w-12 h-12 rounded-xl bg-tertiary/15 text-tertiary flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[28px]">flash_on</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">
+              Orquestração de APIs (Groq &amp; OpenAI)
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">
+              Integrações híbridas tirando proveito do menor tempo até o primeiro token (TTFT) e capacidades analíticas:
+            </p>
+<ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-2">
+<span class="text-tertiary font-bold">›</span>
+<span class="">Latência ultrabaixa com LPU engine da Groq.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="text-tertiary font-bold">›</span>
+<span class="">Roteamento inteligente entre modelos por complexidade.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="text-tertiary font-bold">›</span>
+<span class="">Streaming contínuo de dados assíncronos.</span>
+</li>
+</ul>
+</div>
+<div class="mt-6 pt-4 font-label-code-badge text-label-code-badge text-tertiary">
+            [ Low-latency // Multi-provider ]
+          </div>
+</div>
+<!-- Card 4: Machine Learning & Fundamentos -->
+<div class="bg-surface-container-low/90 backdrop-blur-md p-8 rounded-xl flex flex-col justify-between hover:bg-surface-container transition-all duration-300 shadow-sm">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container-highest text-on-surface flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[28px]">scatter_plot</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">
+              Machine Learning &amp; Fundamentos
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">
+              Compreensão matemática e algorítmica da base do aprendizado de máquina moderno:
+            </p>
+<ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-2">
+<span class="text-on-surface font-bold">›</span>
+<span class="">Métricas de avaliação: Precision, Recall e F1-Score.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="text-on-surface font-bold">›</span>
+<span class="">Pré-processamento, normalização e limpeza de dados.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="text-on-surface font-bold">›</span>
+<span class="">Espaços vetoriais e medição de similaridade de cosseno.</span>
+</li>
+</ul>
+</div>
+<div class="mt-6 pt-4 font-label-code-badge text-label-code-badge text-on-surface-variant">
+            [ Statistical Foundations ]
+          </div>
+</div>
+<!-- Card 5: Automação Inteligente de Tarefas -->
+<div class="bg-surface-container-low/90 backdrop-blur-md p-8 rounded-xl flex flex-col justify-between hover:bg-surface-container transition-all duration-300 shadow-sm">
+<div>
+<div class="w-12 h-12 rounded-xl bg-primary/15 text-primary flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[28px]">rebase</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">
+              Automação Inteligente de Tarefas
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">
+              Agentes e rotinas que executam trabalho cognitivo repetitivo com consistência milimétrica:
+            </p>
+<ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-2">
+<span class="text-primary font-bold">›</span>
+<span class="">Extração semântica de dados a partir de texto desestruturado.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="text-primary font-bold">›</span>
+<span class="">Sumarização executiva multiformato programática.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="text-primary font-bold">›</span>
+<span class="">Pipelines ponta a ponta sem atrito operacional.</span>
+</li>
+</ul>
+</div>
+<div class="mt-6 pt-4 font-label-code-badge text-label-code-badge text-primary-fixed">
+            [ Task Automation // Cognitive Workflows ]
+          </div>
+</div>
+<!-- Card 6: Visual Prompting & Prototipagem -->
+<div class="bg-surface-container-low/90 backdrop-blur-md p-8 rounded-xl flex flex-col justify-between hover:bg-surface-container transition-all duration-300 shadow-sm">
+<div>
+<div class="w-12 h-12 rounded-xl bg-secondary/15 text-secondary flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[28px]">design_services</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">
+              Visual Prompting &amp; Google Stitch
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">
+              Aceleração extrema do ciclo de descoberta de produto com prototipagem visual orientada a IA:
+            </p>
+<ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-2">
+<span class="text-secondary font-bold">›</span>
+<span class="">Iteração rápida de conceitos visuais e mockups.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="text-secondary font-bold">›</span>
+<span class="">Validação ágil de ergonomia e fluxo de interação.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="text-secondary font-bold">›</span>
+<span class="">Transição fluida do protótipo gerado para código final.</span>
+</li>
+</ul>
+</div>
+<div class="mt-6 pt-4 font-label-code-badge text-label-code-badge text-secondary">
+            [ Rapid UX // Stitch Prototyping ]
+          </div>
+</div>
+</div>
+<!-- Inline AI Interactive Prompt Demonstration Widget -->
+<div class="mt-12 bg-surface-container p-6 lg:p-8 rounded-xl shadow-lg">
+<div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 pb-6">
+<div class="flex items-center gap-3">
+<span class="w-10 h-10 rounded-lg bg-primary/20 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">terminal</span>
+</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Simulador de Estratégias de Prompt</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Selecione uma abordagem e visualize a construção do prompt técnico.</p>
+</div>
+</div>
+<div class="flex flex-wrap gap-2">
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-high text-primary font-label-code-badge text-label-code-badge transition-all" id="btnZero" onclick="demoPrompt('zero')">Zero-Shot</button>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-low text-on-surface-variant hover:text-on-surface font-label-code-badge text-label-code-badge transition-all" id="btnFew" onclick="demoPrompt('few')">Few-Shot (3x)</button>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-low text-on-surface-variant hover:text-on-surface font-label-code-badge text-label-code-badge transition-all" id="btnRag" onclick="demoPrompt('rag')">RAG Injetado</button>
+</div>
+</div>
+<div class="mt-4 p-5 bg-surface-container-lowest rounded-lg font-code-inline text-code-inline text-on-surface">
+<div class="space-y-1" id="demoOutput">
+<span class="text-secondary">[SYSTEM]</span> Classifique o feedback do usuário estritamente no formato JSON {"sentimento": "positivo" | "neutro" | "negativo", "confiança": float}.<br>
+<span class="text-primary">[USER]</span> "O serviço foi excepcionalmente rápido, mas o painel inicial poderia ter mais atalhos."<br>
+<span class="text-tertiary">[MODEL OUTPUT]</span> {"sentimento": "positivo", "confiança": 0.88, "aspectos": ["velocidade", "ux"]}
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 6. TECNOLOGIAS EM FOCO (#tecnologias)                                      -->
+<!-- ========================================================================= -->
+<section class="w-full py-20 lg:py-28 bg-surface-container-lowest" id="tecnologias">
+<div class="max-w-[1280px] mx-auto px-layout-margin-mobile lg:px-layout-margin-desktop">
+<!-- Section Header -->
+<div class="flex flex-col gap-2 mb-16">
+<div class="flex items-center gap-2 font-label-code-badge text-label-code-badge text-primary uppercase tracking-widest">
+<span class="text-tertiary font-bold">04 //</span> Stack Tecnológica
+        </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+          Tecnologias em Foco
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+          Conjunto de linguagens, frameworks e ecossistemas aplicados diariamente na concepção de sistemas.
+        </p>
+</div>
+<!-- 4 Stack Category Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Grupo 1: Front-End -->
+<div class="bg-surface-container p-6 rounded-xl flex flex-col justify-between shadow-sm">
+<div>
+<div class="flex items-center gap-3 mb-6">
+<span class="w-10 h-10 rounded-lg bg-surface-container-high text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">desktop_windows</span>
+</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Front-End</h3>
+</div>
+<div class="space-y-3">
+<div class="flex items-center justify-between p-2.5 rounded bg-surface-container-low font-code-inline text-code-inline text-on-surface">
+<span class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary"></span> HTML5
+                </span>
+<span class="font-label-meta text-[11px] text-on-surface-variant">Semântica</span>
+</div>
+<div class="flex items-center justify-between p-2.5 rounded bg-surface-container-low font-code-inline text-code-inline text-on-surface">
+<span class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary"></span> CSS3
+                </span>
+<span class="font-label-meta text-[11px] text-on-surface-variant">Grid / Flex</span>
+</div>
+<div class="flex items-center justify-between p-2.5 rounded bg-surface-container-low font-code-inline text-code-inline text-on-surface">
+<span class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary"></span> JavaScript ES6+
+                </span>
+<span class="font-label-meta text-[11px] text-on-surface-variant">Moderno</span>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-4 text-primary font-label-code-badge text-label-code-badge">
+            // UI &amp; Web Standards
+          </div>
+</div>
+<!-- Grupo 2: Back-End & Programação -->
+<div class="bg-surface-container p-6 rounded-xl flex flex-col justify-between shadow-sm">
+<div>
+<div class="flex items-center gap-3 mb-6">
+<span class="w-10 h-10 rounded-lg bg-surface-container-high text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">dns</span>
+</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Back-End &amp; Core</h3>
+</div>
+<div class="space-y-3">
+<div class="flex items-center justify-between p-2.5 rounded bg-surface-container-low font-code-inline text-code-inline text-on-surface">
+<span class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span> Python
+                </span>
+<span class="font-label-meta text-[11px] text-on-surface-variant">3.12+</span>
+</div>
+<div class="flex items-center justify-between p-2.5 rounded bg-surface-container-low font-code-inline text-code-inline text-on-surface">
+<span class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span> Java
+                </span>
+<span class="font-label-meta text-[11px] text-on-surface-variant">POO / GUI</span>
+</div>
+<div class="flex items-center justify-between p-2.5 rounded bg-surface-container-low font-code-inline text-code-inline text-on-surface">
+<span class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span> APIs REST
+                </span>
+<span class="font-label-meta text-[11px] text-on-surface-variant">JSON / Webhook</span>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-4 text-tertiary font-label-code-badge text-label-code-badge">
+            // Algorithms &amp; Services
+          </div>
+</div>
+<!-- Grupo 3: IA & APIs -->
+<div class="bg-surface-container p-6 rounded-xl flex flex-col justify-between shadow-sm">
+<div>
+<div class="flex items-center gap-3 mb-6">
+<span class="w-10 h-10 rounded-lg bg-surface-container-high text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">neurology</span>
+</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">IA &amp; Modelos</h3>
+</div>
+<div class="space-y-3">
+<div class="flex items-center justify-between p-2.5 rounded bg-surface-container-low font-code-inline text-code-inline text-on-surface">
+<span class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-secondary"></span> OpenAI API
+                </span>
+<span class="font-label-meta text-[11px] text-on-surface-variant">GPT-4o</span>
+</div>
+<div class="flex items-center justify-between p-2.5 rounded bg-surface-container-low font-code-inline text-code-inline text-on-surface">
+<span class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-secondary"></span> Groq API
+                </span>
+<span class="font-label-meta text-[11px] text-on-surface-variant">LPU Fast</span>
+</div>
+<div class="flex items-center justify-between p-2.5 rounded bg-surface-container-low font-code-inline text-code-inline text-on-surface">
+<span class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-secondary"></span> RAG &amp; Embeddings
+                </span>
+<span class="font-label-meta text-[11px] text-on-surface-variant">Vetores</span>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-4 text-secondary font-label-code-badge text-label-code-badge">
+            // Generative Architectures
+          </div>
+</div>
+<!-- Grupo 4: Ferramentas & Ecossistema -->
+<div class="bg-surface-container p-6 rounded-xl flex flex-col justify-between shadow-sm">
+<div>
+<div class="flex items-center gap-3 mb-6">
+<span class="w-10 h-10 rounded-lg bg-surface-container-high text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">construction</span>
+</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Ferramentas</h3>
+</div>
+<div class="space-y-3">
+<div class="flex items-center justify-between p-2.5 rounded bg-surface-container-low font-code-inline text-code-inline text-on-surface">
+<span class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary"></span> Streamlit
+                </span>
+<span class="font-label-meta text-[11px] text-on-surface-variant">Data Apps</span>
+</div>
+<div class="flex items-center justify-between p-2.5 rounded bg-surface-container-low font-code-inline text-code-inline text-on-surface">
+<span class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary"></span> Google Stitch
+                </span>
+<span class="font-label-meta text-[11px] text-on-surface-variant">Prototipagem</span>
+</div>
+<div class="flex items-center justify-between p-2.5 rounded bg-surface-container-low font-code-inline text-code-inline text-on-surface">
+<span class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary"></span> Git &amp; GitHub
+                </span>
+<span class="font-label-meta text-[11px] text-on-surface-variant">Versionamento</span>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-4 text-primary font-label-code-badge text-label-code-badge">
+            // Workflow &amp; Delivery
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 7. CONTATO (#contato)                                                     -->
+<!-- ========================================================================= -->
+<section class="relative w-full py-20 lg:py-28 bg-surface overflow-hidden" id="contato">
+<!-- Glows -->
+<div class="absolute top-1/3 left-1/2 -translate-x-1/2 w-96 h-96 bg-primary/10 rounded-full blur-[140px] pointer-events-none"></div>
+<div class="max-w-[1280px] mx-auto px-layout-margin-mobile lg:px-layout-margin-desktop relative z-10">
+<!-- Container card -->
+<div class="bg-surface-container rounded-2xl p-8 lg:p-14 shadow-2xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Left info column -->
+<div class="lg:col-span-6 flex flex-col justify-between">
+<div class="space-y-6">
+<div class="inline-flex items-center gap-2 font-label-code-badge text-label-code-badge text-primary uppercase tracking-widest">
+<span class="text-tertiary font-bold">05 //</span> Conexão &amp; Projetos
+              </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+                Vamos construir algo extraordinário juntos?
+              </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Aberto a oportunidades, projetos freelance e colaborações técnicas em desenvolvimento web, engenharia de software e soluções personalizadas com Inteligência Artificial.
+              </p>
+<!-- Action Channels -->
+<div class="space-y-3 pt-2">
+<!-- GitHub -->
+<a class="flex items-center justify-between p-4 rounded-xl bg-surface-container-low hover:bg-surface-container-high transition-all group" href="https://github.com/professortoniati" rel="noopener noreferrer" target="_blank">
+<div class="flex items-center gap-3">
+<span class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-on-surface group-hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">code</span>
+</span>
+<div>
+<div class="font-label-meta text-label-meta text-on-surface-variant uppercase">GitHub</div>
+<div class="font-code-inline text-code-inline text-on-surface">github.com/professortoniati</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary group-hover:translate-x-1 transition-all">north_east</span>
+</a>
+<!-- LinkedIn -->
+<a class="flex items-center justify-between p-4 rounded-xl bg-surface-container-low hover:bg-surface-container-high transition-all group" href="https://linkedin.com" rel="noopener noreferrer" target="_blank">
+<div class="flex items-center gap-3">
+<span class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-on-surface group-hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">hub</span>
+</span>
+<div>
+<div class="font-label-meta text-label-meta text-on-surface-variant uppercase">LinkedIn</div>
+<div class="font-code-inline text-code-inline text-on-surface">linkedin.com/in/[seu-perfil]</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary group-hover:translate-x-1 transition-all">north_east</span>
+</a>
+<!-- E-mail with direct copy button -->
+<div class="flex items-center justify-between p-4 rounded-xl bg-surface-container-low">
+<div class="flex items-center gap-3">
+<span class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-on-surface">
+<span class="material-symbols-outlined text-[20px]">alternate_email</span>
+</span>
+<div>
+<div class="font-label-meta text-label-meta text-on-surface-variant uppercase">E-mail Direto</div>
+<div class="font-code-inline text-code-inline text-on-surface" id="emailValue">[seu-email]@exemplo.com</div>
+</div>
+</div>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-primary font-label-code-badge text-label-code-badge flex items-center gap-1.5 transition-all" id="btnCopyEmail" onclick="copyEmailToClipboard()">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+<span id="copyFeedback" class="">Copiar</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Terminal status line -->
+<div class="mt-8 pt-4 flex items-center gap-2 font-label-meta text-label-meta text-on-surface-variant">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+<span class="">Tempo de resposta médio: &lt; 24 horas úteis</span>
+</div>
+</div>
+<!-- Right column: Interactive Quick Simulator Form -->
+<div class="lg:col-span-6 bg-surface-container-lowest p-6 lg:p-8 rounded-xl shadow-inner">
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">
+              Envie uma mensagem direta
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Preencha os campos abaixo para iniciar um diálogo sobre seu projeto ou oportunidade.
+            </p>
+<form class="space-y-4" id="contactForm" onsubmit="handleFormSubmit(event)">
+<div class="space-y-1.5">
+<label class="font-label-meta text-label-meta text-on-surface uppercase" for="formName">Nome Completo</label>
+<input class="w-full px-4 py-3 rounded-lg bg-surface-container-high text-on-surface placeholder:text-outline-variant font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-highest transition-all" id="formName" placeholder="Seu nome ou empresa" required="" type="text">
+</div>
+<div class="space-y-1.5">
+<label class="font-label-meta text-label-meta text-on-surface uppercase" for="formEmail">E-mail para Contato</label>
+<input class="w-full px-4 py-3 rounded-lg bg-surface-container-high text-on-surface placeholder:text-outline-variant font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-highest transition-all" id="formEmail" placeholder="voce@dominio.com" required="" type="email">
+</div>
+<div class="space-y-1.5">
+<label class="font-label-meta text-label-meta text-on-surface uppercase" for="formSubject">Assunto</label>
+<input class="w-full px-4 py-3 rounded-lg bg-surface-container-high text-on-surface placeholder:text-outline-variant font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-highest transition-all" id="formSubject" placeholder="Ex: Projeto com IA / Proposta Freelance" required="" type="text">
+</div>
+<div class="space-y-1.5">
+<label class="font-label-meta text-label-meta text-on-surface uppercase" for="formMessage">Mensagem</label>
+<textarea class="w-full px-4 py-3 rounded-lg bg-surface-container-high text-on-surface placeholder:text-outline-variant font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-highest transition-all" id="formMessage" placeholder="Descreva brevemente sua ideia, desafio técnico ou demanda..." required="" rows="4"></textarea>
+</div>
+<button class="w-full py-3.5 px-6 rounded-lg bg-gradient-to-r from-primary-container via-primary to-secondary text-on-primary-container font-code-inline text-code-inline font-bold shadow-lg shadow-primary/20 hover:shadow-primary/40 hover:-translate-y-0.5 active:scale-98 transition-all flex items-center justify-center gap-2" id="submitBtn" type="submit">
+<span class="material-symbols-outlined text-[18px]">send</span>
+<span id="submitText" class="">Enviar Mensagem</span>
+</button>
+<div class="hidden p-3 rounded-lg bg-tertiary/10 text-tertiary font-label-code-badge text-label-code-badge text-center" id="formFeedback">
+                ✓ Mensagem despachada com sucesso! Entrarei em contato em breve.
+              </div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // 1. Hero Terminal Tab Switcher
+  function switchHeroTab(tabId) {
+    const tab1 = document.getElementById('heroTab1');
+    const tab2 = document.getElementById('heroTab2');
+    const tab3 = document.getElementById('heroTab3');
+
+    const contentRAG = document.getElementById('tabContentRAG');
+    const contentPrompt = document.getElementById('tabContentPrompt');
+    const contentMetrics = document.getElementById('tabContentMetrics');
+
+    // Reset styles
+    [tab1, tab2, tab3].forEach(t => {
+      t.className = "px-3.5 py-2 text-on-surface-variant hover:text-on-surface rounded-t-sm flex items-center gap-1.5 transition-all";
+    });
+
+    contentRAG.classList.add('hidden');
+    contentPrompt.classList.add('hidden');
+    contentMetrics.classList.add('hidden');
+
+    if (tabId === 'rag') {
+      tab1.className = "px-3.5 py-2 text-primary bg-surface-container-high/40 rounded-t-sm flex items-center gap-1.5 transition-all";
+      contentRAG.classList.remove('hidden');
+    } else if (tabId === 'prompt') {
+      tab2.className = "px-3.5 py-2 text-secondary bg-surface-container-high/40 rounded-t-sm flex items-center gap-1.5 transition-all";
+      contentPrompt.classList.remove('hidden');
+    } else if (tabId === 'metrics') {
+      tab3.className = "px-3.5 py-2 text-tertiary bg-surface-container-high/40 rounded-t-sm flex items-center gap-1.5 transition-all";
+      contentMetrics.classList.remove('hidden');
+    }
+  }
+
+  // 2. Project Category Filtering
+  function filterProjects(category) {
+    const cards = document.querySelectorAll('.project-card');
+    const buttons = document.querySelectorAll('.filter-btn');
+
+    buttons.forEach(btn => {
+      if (btn.getAttribute('data-category') === category) {
+        btn.className = "filter-btn active-tab px-4 py-2 rounded-full font-label-code-badge text-label-code-badge transition-all bg-primary text-on-primary font-semibold";
+      } else {
+        btn.className = "filter-btn px-4 py-2 rounded-full font-label-code-badge text-label-code-badge text-on-surface-variant hover:text-on-surface transition-all";
+      }
+    });
+
+    cards.forEach(card => {
+      const cardCat = card.getAttribute('data-cat');
+      if (category === 'all' || cardCat === category) {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  // 3. Prompt Simulator switcher in AI section
+  function demoPrompt(mode) {
+    const out = document.getElementById('demoOutput');
+    const b1 = document.getElementById('btnZero');
+    const b2 = document.getElementById('btnFew');
+    const b3 = document.getElementById('btnRag');
+
+    [b1, b2, b3].forEach(b => {
+      b.className = "px-3 py-1.5 rounded-lg bg-surface-container-low text-on-surface-variant hover:text-on-surface font-label-code-badge text-label-code-badge transition-all";
+    });
+
+    if (mode === 'zero') {
+      b1.className = "px-3 py-1.5 rounded-lg bg-surface-container-high text-primary font-label-code-badge text-label-code-badge transition-all";
+      out.innerHTML = `
+        <span class="text-secondary">[SYSTEM]</span> Classifique o feedback do usuário estritamente no formato JSON {"sentimento": "positivo" | "neutro" | "negativo", "confiança": float}.<br />
+        <span class="text-primary">[USER]</span> "O serviço foi excepcionalmente rápido, mas o painel inicial poderia ter mais atalhos."<br />
+        <span class="text-tertiary">[MODEL OUTPUT]</span> {"sentimento": "positivo", "confiança": 0.88, "aspectos": ["velocidade", "ux"]}
+      `;
+    } else if (mode === 'few') {
+      b2.className = "px-3 py-1.5 rounded-lg bg-surface-container-high text-secondary font-label-code-badge text-label-code-badge transition-all";
+      out.innerHTML = `
+        <span class="text-secondary">[SYSTEM]</span> Exemplos de mapeamento:<br />
+        Ex 1: "Código quebra na thread 2" -&gt; {"categoria": "BUG", "gravidade": "ALTA"}<br />
+        Ex 2: "Seria útil exportar em CSV" -&gt; {"categoria": "FEATURE", "gravidade": "BAIXA"}<br />
+        <span class="text-primary">[INPUT]</span> "O token de autorização expira sem disparar webhook de renovação."<br />
+        <span class="text-tertiary">[MODEL OUTPUT]</span> {"categoria": "AUTH_ANOMALY", "gravidade": "CRÍTICA", "ação": "refresh_flow"}
+      `;
+    } else if (mode === 'rag') {
+      b3.className = "px-3 py-1.5 rounded-lg bg-surface-container-high text-tertiary font-label-code-badge text-label-code-badge transition-all";
+      out.innerHTML = `
+        <span class="text-secondary">[INJECTED CONTEXT (3 Chunks - ChromaDB Sim 0.94)]</span><br />
+        Doc #12: "A latência da LPU Groq opera em escala linear com inferência em lote de 14ms."<br />
+        <span class="text-primary">[PROMPT]</span> Qual a métrica estimada para resposta em lote segundo os manuais?<br />
+        <span class="text-tertiary">[VERIFIED OUTPUT]</span> De acordo com o documento técnico #12, a resposta em lote atinge 14ms mantendo consistência linear.
+      `;
+    }
+  }
+
+  // 4. Copy Email to Clipboard
+  function copyEmailToClipboard() {
+    const email = document.getElementById('emailValue').innerText;
+    navigator.clipboard.writeText(email).then(() => {
+      const fb = document.getElementById('copyFeedback');
+      fb.innerText = "Copiado!";
+      fb.className = "text-tertiary font-bold";
+      setTimeout(() => {
+        fb.innerText = "Copiar";
+        fb.className = "";
+      }, 2000);
+    });
+  }
+
+  // 5. Contact Form Simulation
+  function handleFormSubmit(e) {
+    e.preventDefault();
+    const btn = document.getElementById('submitBtn');
+    const txt = document.getElementById('submitText');
+    const fb = document.getElementById('formFeedback');
+
+    txt.innerText = "Enviando telemetria...";
+    btn.disabled = true;
+
+    setTimeout(() => {
+      txt.innerText = "Mensagem Despachada!";
+      fb.classList.remove('hidden');
+      document.getElementById('contactForm').reset();
+      setTimeout(() => {
+        txt.innerText = "Enviar Nova Mensagem";
+        btn.disabled = false;
+      }, 3000);
+    }, 1000);
+  }
+</script></main><footer class="w-full bg-surface-container-lowest border-t border-outline-variant/30 py-12"><div class="max-w-[1280px] mx-auto px-layout-margin-mobile lg:px-layout-margin-desktop"><div class="flex flex-col md:flex-row items-center justify-between gap-8 pb-8 border-b border-outline-variant/20"><div class="flex flex-col items-center md:items-start gap-2"><div class="flex items-center gap-2"><span class="font-headline-sm text-headline-sm text-on-surface">Dev<span class="text-primary">.AI</span></span><span class="px-2 py-0.5 rounded font-label-code-badge text-label-code-badge bg-surface-container-high text-primary-fixed border border-outline-variant/40">v2.4_kernel</span></div><p class="font-body-sm text-body-sm text-on-surface-variant text-center md:text-left">Arquitetura de software de alta precisão e engenharia de inteligência artificial.</p></div><div class="flex flex-wrap justify-center items-center gap-6"><a class="font-label-code-badge text-label-code-badge text-on-surface-variant hover:text-primary transition-colors" href="#hero">~/inicio</a><a class="font-label-code-badge text-label-code-badge text-on-surface-variant hover:text-primary transition-colors" href="#sobre">~/sobre</a><a class="font-label-code-badge text-label-code-badge text-on-surface-variant hover:text-primary transition-colors" href="#projetos">~/projetos</a><a class="font-label-code-badge text-label-code-badge text-on-surface-variant hover:text-primary transition-colors" href="#ia">~/ia</a><a class="font-label-code-badge text-label-code-badge text-on-surface-variant hover:text-primary transition-colors" href="#contato">~/contato</a></div><div class="flex items-center gap-3"><a class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container-high border border-outline-variant/30 transition-all" href="https://github.com/professortoniati" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[20px]">code</span></a><a class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container-high border border-outline-variant/30 transition-all" href="https://linkedin.com" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[20px]">hub</span></a><a class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container-high border border-outline-variant/30 transition-all" href="mailto:contato@dev.ai"><span class="material-symbols-outlined text-[20px]">alternate_email</span></a></div></div><div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 font-label-meta text-label-meta text-on-surface-variant"><div class="flex items-center gap-2"><span class="">© 2025 Dev.AI. Todos os direitos reservados.</span><span class="hidden sm:inline text-outline-variant">|</span><span class="hidden sm:inline text-outline">System Status: Optimal</span></div><div class="flex items-center gap-1 text-on-surface-variant"><span class="">Feito com</span><span class="text-primary font-code-inline px-1">código limpo</span><span class="">&amp;</span><span class="text-tertiary font-code-inline px-1">IA</span></div></div></div></footer></body></html>
